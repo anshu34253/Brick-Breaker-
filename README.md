@@ -22,4 +22,22 @@ Welcome to **Brick Breaker** – a classic arcade-style game developed in C++ us
    ```bash
    git clone https://github.com/yourusername/brick-breaker.git
    cd brick-breaker
-   
+   ```
+
+2. Compile and run the game:
+   ```bash
+   g++ brick_breaker.cpp -o brick_breaker -lgraph
+   ./brick_breaker
+   ```
+
+### Controls
+
+- **Left Arrow**: Move paddle left
+- **Right Arrow**: Move paddle right
+
+## Gameplay
+
+- Use the paddle to bounce the ball and aim to hit all the bricks.
+- Missing the ball will end the game.
+- Different bricks may require multiple hits to break.
+
